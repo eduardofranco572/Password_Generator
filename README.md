@@ -9,7 +9,7 @@ Olá, Meu nome é Eduardo e esse é o projeto de um WebSite Gerador de senhas. N
   <br>
   <br>
    <h1>Link do site:</h1>
-   <p>teste/</p>
+   <p>https://eduardofranco572.github.io/Password_Generator/</p>
   <br>
   <br>
 </div>
