@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Password Generator</title>
+</head>
+<body>
+
+    <section class="container">
+        <div class="title">
+            <h1>Password Generator</h1>
+        </div>
+
+        <div class="gerador">
+            <div class="resultado">
+                <div class="senha">
+                    <h1 id="senha"></h1>
+                </div>
+                <span class="material-symbols-outlined">content_copy</span>
+            </div>
+            <div class="options">
+                <div class="character">
+                    <div class="titles-char">
+                        <h1>Character Length</h1>
+                        <span class="numeros-char" id="lengthChar">10</span>
+                    </div>
+                    <div class="input">
+                        <input type="range" min="0" max="100" step="1" id="customRange">
+                    </div>
+                </div>
+
+                <div class="includes">
+                    <div class="pt1">
+                        <label class="containerchack">
+                            <p>Include Uppercase Letters</p>
+                            <input type="checkbox" id="Uppercase">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="pt1">
+                        <label class="containerchack">
+                            <p>Include Lowercase Letters</p>
+                            <input type="checkbox" id="Lowercase">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="pt1">
+                        <label class="containerchack">
+                            <p>Include Number</p>
+                            <input type="checkbox" id="Number">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="pt1">
+                        <label class="containerchack">
+                            <p>Include Symbols</p>
+                            <input type="checkbox" id="Symbols">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="strength">
+ 
+                </div>
+
+                <div class="button">
+                    <button id="gerar">
+                        GENERATE
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/gerador.js"></script>
+    <script src="js/animacoes.js"></script>
+
+</body>
+</html>
