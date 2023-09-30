@@ -8,6 +8,10 @@ Olá, Meu nome é Eduardo e esse é o projeto de um WebSite Gerador de senhas. N
    <img src="img.png">
   <br>
   <br>
+   <h1>Link do site:</h1>
+   <p>teste/</p>
+  <br>
+  <br>
 </div>
 <br>
   Aqui são umas das linguagens de progamação que tenho conhecimento. e que utilizo para criar meus sites 💻
